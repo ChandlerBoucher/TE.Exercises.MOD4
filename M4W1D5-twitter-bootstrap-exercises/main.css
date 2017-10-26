@@ -1,0 +1,64 @@
+﻿body {
+}
+
+li {
+    list-style-type: none;
+}
+
+table {
+margin: 20px;
+}
+
+#features {
+    text-align: center;
+}
+
+    #features h2 {
+        margin-top: -5px;
+    }
+
+    #features .glyphicon {
+        font-size: 100px;
+    }
+
+#welcome-banner {
+    background-position: center;
+    background-color: #191919;
+    color: #FFF;
+}
+
+    #welcome-banner h1 {
+        color: white;
+        font-weight: 600;
+    }
+    #impact img {
+        margin-bottom: 30px;
+    }
+#impact blockquote {
+    border: none;
+    top: -76px;
+    padding: 0px;
+    margin: 0px;
+    height: 297px;
+}
+    #impact blockquote p {
+        position: relative;
+        color: #FFF;
+        height: 297px;
+        width: 297px;
+        top: -126px;
+        left: 20px;
+    }
+@media (min-width: 768px) {
+    #welcome-banner {
+        background: url(img/te_present_906x600.jpg) center center no-repeat;
+        background-size: cover;
+    }
+}
+
+@media (min-width: 1600px) {
+    #welcome-banner {
+        background: url(img/te_present_1600x1060.jpg) center center no-repeat;
+        background-size: cover;
+    }
+}
